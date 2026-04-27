@@ -8,7 +8,7 @@ const Navbar = () => {
         setIsOpen(isOpen === dropdown ? null : dropdown);
     };
   return (
-    <div  className='flex justify-between items-center h-[7vh] p-[1/2vh] min-w-295 bg-white'>
+    <div className='flex justify-between items-center h-[7vh] p-[1/2vh] min-w-295 bg-white'>
         <div className='flex gap-7'>
             <div>
                 <img src="https://brandlogos.net/wp-content/uploads/2025/11/leetcode-logo_brandlogos.net_c4kgx.png" alt="logo" className='h-[3vh]' />
@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className='flex gap-4 items-center'>
             <div className='flex items-center px-1 h-[5vh] w-[26vh] bg-gray-100 rounded-full'>
                 <Search className='h-4'/>
-                <input placeholder='Search' className='bg-gray-100 text-sm text-gray-500 focus:outline-none'/>
+                <input placeholder='Search' className='bg-gray-100 text-sm text-gray-500 '/>
             </div>
             <div className='flex items-center'>
                 <BellDot className='h-4'/>
